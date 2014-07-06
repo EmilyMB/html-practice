@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Google</title>
+	<link rel="stylesheet" href="stylesheet.css">
+<body>
+	<header> This is the header </header>
+	<div>
+	<p> test</p> <br> <br>
+	<p id="country"> M&#233xico </p>
+	<div>
+	<form action="#" method="POST" name="search">
+		<input type="text" name="search_words" id="input_box"><br>
+		<div>
+		<span style="display: inline;">
+  
+
+		<input type="button" value="Google Search">
+
+		<input type="button" value="I'm Feeling Lucky">
+		</span>
+	
+		</div>
+
+
+	</form>
+
+	<p id="Spanish">Google.com.mx offered in <a href="https://www.google.com.mx/setprefs?sig=0_6IB-FX87sIcl9vjhF-wEBsXLK5o%3D&hl=es-419&source=homepage"> Espa&#241ol (Latinoam&#233rica)</a></p>
+
+
+<div class="clear"> </div>
+<footer>
+	<div> 
+		<p id="left_foot"> 
+			<a href="https://www.google.com.mx/intl/en/ads/?fg=1">Advertising</a>
+			<a href="https://www.google.com.mx/services/?fg=1">Business</a>
+			<a href="https://www.google.com.mx/intl/en/about.html?fg=1">About</a>
+			 </p> </div>
+	<div> <p id="right_foot">This is the rt footer</p></div>
+</footer>
+</body>
+
+</html>

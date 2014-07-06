@@ -1,0 +1,151 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+p {
+	text-align: center;
+	font-family: arial, sans-serif;
+	font-size:8px;
+	font-color:red;
+}
+
+a {
+	text-decoration:none;
+	font-color:red;
+
+}
+
+a:hover {
+	text-decoration:underline;
+}
+input {
+	margin-left:auto;
+	margin-right:auto;
+	line-height: 27px;
+	font-weight:bold;
+	font-color:red;
+	padding: 5px;
+}
+
+#input_box {
+	width: 570px;
+	height: 20px;
+	position: fixed;
+	top: 55%;
+	left: 50%;
+	margin-left: -285px;
+
+}
+
+hover:#input_box {
+	color:red;
+}
+
+div {
+	text-align:center;
+	font-size: 8px;
+	font-color:red;
+	position: fixed;
+	top: 65%;
+	left: 50%;
+	margin-left: -120px;
+
+
+}
+
+#Spanish {
+	position: fixed;
+	top: 70%;
+	left: 50%;
+	margin-left: -160px;
+	padding: 20px;
+	font-size: 13px;
+	font-color:red;
+}
+
+
+
+input[type = "button"]:hover {
+    color:#222;
+    border: solid #C1C1C1 1px;
+    border-bottom: solid #C1C1C1 2px;
+
+}
+
+input[type = "button"] {
+    color:#505050;
+    font-size:12px;
+    margin-left:15px;
+    background-color:#F5F5F5;
+    height:31px;
+    vertical-align: center;
+    padding-top: 1px;
+    border: solid #DCDCDC 1px;
+    border-radius:2px;
+}
+
+#country {
+	font-color: #666666;
+	font-size: 16px;
+	font-weight: bold;
+	position: fixed;
+	top: 42%;
+	left: 65%;
+}
+
+footer {
+	background-color: #E5E5E5;
+	height: 30px;
+	width: 100%;
+	position: fixed;
+	top: 95%;
+	left: 0%;
+	text-decoration:none;
+	font-color:#CCCCCC;
+
+}
+
+.clear {
+	clear:both;
+}
+
+header {
+	height: 30px;
+	width: 100%;
+	position: fixed;
+	vertical-align: top;
+	font-size: 15px;
+	font-color: red;
+	background-color: purple;
+}
+
+p#right_foot, p#left_foot {
+	position: fixed;
+	top: 97%;
+	right: 0%;
+	font-color:red;
+	width:200px;
+	text-align:center;
+	padding-right:15px;
+	font-size:15px;
+}
+
+p#right_foot {right: 0%}
+
+p#left_foot {left: 0%;}
