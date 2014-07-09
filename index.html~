@@ -4,39 +4,52 @@
 	<title>Google</title>
 	<link rel="stylesheet" href="stylesheet.css">
 <body>
-	<header> This is the header </header>
+	<header> 
+		<ul class="inline-list">
+			<li> <a href="https://plus.google.com/?gpsrc=ogpy0&tab=wX">+You</a></li>
+			<li> <a href="https://mail.google.com/mail/?tab=wm">Gmail</a></li>
+			<li> <a href="https://www.google.com.mx/imghp?hl=en&tab=wi&ei=yAi6U9avEIj0igL0_YCgBA&ved=0CAQQqi4oAg">Images</a></li>
+			<li> <a href="http://www.google.com.mx/intl/en/options/"> Options</a></li>
+			<li > <a id="sign-in" href="https://accounts.google.com/ServiceLogin?hl=en&continue=https://www.google.com.mx/">Sign In</a></li>
+		</ul>
+	</header>
 	<div>
-	<p> test</p> <br> <br>
-	<p id="country"> M&#233xico </p>
-	<div>
-	<form action="#" method="POST" name="search">
-		<input type="text" name="search_words" id="input_box"><br>
-		<div>
-		<span style="display: inline;">
-  
-
-		<input type="button" value="Google Search">
-
-		<input type="button" value="I'm Feeling Lucky">
-		</span>
-	
+		<!--<p ><img id="logo" src="https://www.google.com/images/srpr/logo11w.png"/></p>	
+		<div>	<p id="country"> M&#233xico </p> !-->
 		</div>
+	</div>
+	<div>
+		<form action="#" method="POST" name="search">
+			<input type="text" name="search_words" id="input_box"><br></form>
 
-
-	</form>
-
+	</div>
+	<div id="buttons">
+		<span style="display: inline;">
+			<input type="button" value="Google Search">
+			<input type="button" value="I'm Feeling Lucky">
+		</span>	
+	</div>
+	
+	
 	<p id="Spanish">Google.com.mx offered in <a href="https://www.google.com.mx/setprefs?sig=0_6IB-FX87sIcl9vjhF-wEBsXLK5o%3D&hl=es-419&source=homepage"> Espa&#241ol (Latinoam&#233rica)</a></p>
 
 
 <div class="clear"> </div>
 <footer>
 	<div> 
-		<p id="left_foot"> 
-			<a href="https://www.google.com.mx/intl/en/ads/?fg=1">Advertising</a>
-			<a href="https://www.google.com.mx/services/?fg=1">Business</a>
-			<a href="https://www.google.com.mx/intl/en/about.html?fg=1">About</a>
-			 </p> </div>
-	<div> <p id="right_foot">This is the rt footer</p></div>
+		<ul id="left_foot" class="inline-list2"> 
+			<li><a href="https://www.google.com.mx/intl/en/ads/?fg=1">Advertising</a></li>
+			<li><a href="https://www.google.com.mx/services/?fg=1">Business</a></li>
+			<li><a href="https://www.google.com.mx/intl/en/about.html?fg=1">About</a></li>
+		</ul>
+	 </div>
+	<div>	
+		<ul id="right_foot" class="inline-list2"> 
+			<li><a href="https://www.google.com.mx/intl/en/policies/?fg=1">Privacy & Terms</a></li>
+			<li><a href="https://www.google.com.mx/preferences?hl=en">Settings</a></li>
+			<li><a href="https://www.google.com.mx/setprefdomain?prefdom=US&prev=https://www.google.com/&sig=0_i9jaoL0BxT2qGRRAeTPPbcsiaLQ%3D&fg=1">Use Google.com</a></li>
+		</ul>
+	</div>
 </footer>
 </body>
 
